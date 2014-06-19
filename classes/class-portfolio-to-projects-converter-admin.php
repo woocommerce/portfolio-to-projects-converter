@@ -74,9 +74,13 @@ final class Portfolio_To_Projects_Converter_Admin {
 			<h2><?php _e( 'Portfolio to Projects Converter', 'portfolio-to-projects-converter' ); ?></h2>
 <?php
 $count = $this->_get_portfolio_item_count();
+$upper_limit = intval( apply_filters( 'portfolio_to_projects_upper_limit', 50 ) );
 
 if ( 0 < $count ) {
+	if ( $upper_limit < $count ) {
 ?>
+			<div class="updated fade"><p><?php printf( __( '%sPlease note:%s This converter will convert up to %s portfolio items each time it is run. To convert more items, run the converter multiple times.', 'portfolio-to-projects-converter' ), '<strong>', '</strong>', $upper_limit ); ?></p></div>
+<?php } ?>
 			<p><?php printf( __( 'Number of portfolio items found: %s', 'portfolio-to-projects-converter' ), $count ); ?></p>
 			<form method="post">
 				<?php
@@ -94,16 +98,6 @@ if ( 0 < $count ) {
 	} // End settings_screen()
 
 	/**
-	 * Check if we have portfolio items or not.
-	 * @access  private
-	 * @since   1.0.0
-	 * @return  void
-	 */
-	private function _has_portfolio_items () {
-		// TODO
-	} // End _has_portfolio_items()
-
-	/**
 	 * Retrieve the portfolio item IDs which haven't been converted.
 	 * @access  private
 	 * @since   1.0.0
@@ -115,7 +109,7 @@ if ( 0 < $count ) {
 			return $this->_portfolio_item_ids;
 		}
 		// Otherwise, query for the ID values and store them for later.
-		$meta_query = array(); // TODO
+		$meta_query = array( 'meta_key' => '_is_converted_to_project', 'meta_value' => 'true', 'meta_compare' => 'NOT EXISTS' );
 		$args = array( 'post_type' => 'portfolio', 'limit' => intval( apply_filters( 'portfolio_to_projects_upper_limit', 50 ) ), 'meta_query' => $meta_query );
 		$response = get_posts( $args );
 
@@ -126,6 +120,8 @@ if ( 0 < $count ) {
 				}
 			}
 		}
+
+		return $this->_portfolio_item_ids;
 	} // End _get_portfolio_items()
 
 	/**
@@ -138,7 +134,7 @@ if ( 0 < $count ) {
 		if ( ! is_null( $this->_portfolio_item_count ) ) {
 			return intval( $this->_portfolio_item_count );
 		}
-		$count = wp_count_posts( 'portfolio' );
+		$count = count( $this->_get_portfolio_items() );
 
 		if ( ! is_int( $count ) ) {
 			$count = 0;
