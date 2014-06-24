@@ -2,12 +2,12 @@
 /**
  * Plugin Name: Portfolio to Projects Converter
  * Plugin URI: http://matty.co.za/
- * Description: Hey there! I'm your new starter plugin.
+ * Description: Converts Portfolio items into Project items.
  * Version: 1.0.0
- * Author: Matty
- * Author URI: http://matty.co.za/
+ * Author: Matty, Jeffikus
+ * Author URI: http://www.woothemes.com/
  * Requires at least: 3.8.1
- * Tested up to: 3.8.1
+ * Tested up to: 3.9.1
  *
  * Text Domain: portfolio-to-projects-converter
  * Domain Path: /languages/

@@ -1,24 +1,24 @@
 === Portfolio to Projects Converter ===
-Contributors:
+Contributors: woothemes, mattyza, jeffikus
 Donate link:
-Tags:
-Requires at least: 3.9
-Tested up to: 3.9
+Tags: woothemes, portfolio, projects
+Requires at least: 3.8.1
+Tested up to: 3.9.1
 Stable tag: 1.0.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Hey there! I'm your new starter plugin.
+Converts Portfolio items into Project items.
 
 == Description ==
 
-Hey there! I'm your new starter plugin.
+Converts Portfolio items into Project items. This allows you to take your existing WooThemes Portfolio items and use them with our Projects plugin.
 
-Looking for a helping hand? [View plugin documentation](http://domain.com/).
+Looking for a helping hand? [View plugin documentation](http://docs.woothemes.com/).
 
 == Usage ==
 
-Place some text here, explaining how to use this plugin. Keep it clear and easy to read (short sentences).
+After installing the plugin, navigate to the Tools -> Portfolio to Projects admin screen. From here, if you have Portfolio items, you will be given the option to Convert Portfolio Items by clicking the button labelled "Convert Portfolio Items". Once you've clicked the button, sit back and relax as your Portfolio items are converted into Project items!
 
 == Installation ==
 
@@ -27,13 +27,13 @@ Installing "Portfolio to Projects Converter" can be done either by searching for
 1. Download the plugin via WordPress.org.
 1. Upload the ZIP file through the "Plugins > Add New > Upload" screen in your WordPress dashboard.
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Visit the settings screen and configure, as desired.
+1. Visit the Tools -> Portfolio to Projects admin screen.
 
 == Frequently Asked Questions ==
 
 = How do I contribute? =
 
-We encourage everyone to contribute their ideas, thoughts and code snippets. This can be done by forking the [repository over at GitHub](http://github.com/mattyza/portfolio-to-projects-converter/).
+We encourage everyone to contribute their ideas, thoughts and code snippets. This can be done by forking the [repository over at GitHub](http://github.com/woothemes/portfolio-to-projects-converter/).
 
 == Screenshots ==
 
@@ -43,11 +43,11 @@ We encourage everyone to contribute their ideas, thoughts and code snippets. Thi
 == Upgrade Notice ==
 
 = 1.0.0 =
-* 2014-05-09
+* 2014-06-24
 * Initial release. Woo!
 
 == Changelog ==
 
 = 1.0.0 =
-* 2014-05-09
+* 2014-06-24
 * Initial release. Woo!
