@@ -3,7 +3,7 @@
  * Plugin Name: Portfolio to Projects Converter
  * Plugin URI: http://wordpress.org/plugins/portfolio-to-projects-converter/
  * Description: Converts Portfolio items into Project items.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Matty, Jeffikus
  * Author URI: http://www.woothemes.com/
  * Requires at least: 3.8.1

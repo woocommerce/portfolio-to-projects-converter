@@ -1,0 +1,86 @@
+# Copyright (C) 2014 Portfolio to Projects Converter
+# This file is distributed under the same license as the Portfolio to Projects Converter package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Portfolio to Projects Converter 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/portfolio-to-projects-"
+"converter\n"
+"POT-Creation-Date: 2014-07-24 13:17:15+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: classes/class-portfolio-to-projects-converter-admin.php:63
+msgid "Portfolio to Projects"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Portfolio to Projects Converter 1.0.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: classes/class-portfolio-to-projects-converter-admin.php:75
+msgid "Portfolio to Projects Converter"
+msgstr ""
+
+#: classes/class-portfolio-to-projects-converter-admin.php:81
+msgid ""
+"It looks like you've converted all of your portfolio items. You're good to "
+"go!"
+msgstr ""
+
+#: classes/class-portfolio-to-projects-converter-admin.php:82
+#: classes/class-portfolio-to-projects-converter-admin.php:190
+msgid "Create a new project"
+msgstr ""
+
+#: classes/class-portfolio-to-projects-converter-admin.php:175
+msgid "Processing Updates......"
+msgstr ""
+
+#: classes/class-portfolio-to-projects-converter-admin.php:177
+msgid ""
+"If your browser doesn&#8217;t start loading the next page automatically, "
+"click this link:"
+msgstr ""
+
+#: classes/class-portfolio-to-projects-converter-admin.php:177
+msgid "Next"
+msgstr ""
+
+#: classes/class-portfolio-to-projects-converter-admin.php:189
+msgid "Portfolio to Projects completed successfully!"
+msgstr ""
+
+#: classes/class-portfolio-to-projects-converter-admin.php:196
+msgid "Number of portfolio items found: %s"
+msgstr ""
+
+#: classes/class-portfolio-to-projects-converter-admin.php:200
+msgid "Convert Portfolio Items"
+msgstr ""
+
+#: classes/class-portfolio-to-projects-converter-admin.php:209
+msgid "You do not have permission to perform this function."
+msgstr ""
+
+#: portfolio-to-projects-converter.php:141
+#: portfolio-to-projects-converter.php:150
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/portfolio-to-projects-converter/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Converts Portfolio items into Project items."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Matty, Jeffikus"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.woothemes.com/"
+msgstr ""
