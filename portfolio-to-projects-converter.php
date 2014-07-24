@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Portfolio to Projects Converter
- * Plugin URI: http://matty.co.za/
+ * Plugin URI: http://wordpress.org/plugins/portfolio-to-projects-converter/
  * Description: Converts Portfolio items into Project items.
  * Version: 1.0.0
  * Author: Matty, Jeffikus

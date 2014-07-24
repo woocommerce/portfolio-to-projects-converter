@@ -1,6 +1,6 @@
 === Portfolio to Projects Converter ===
 Contributors: woothemes, mattyza, jeffikus
-Donate link:
+Donate link: http://www.woothemes.com
 Tags: woothemes, portfolio, projects
 Requires at least: 3.8.1
 Tested up to: 3.9.1
@@ -14,7 +14,7 @@ Converts Portfolio items into Project items.
 
 Converts Portfolio items into Project items. This allows you to take your existing WooThemes Portfolio items and use them with our Projects plugin.
 
-Looking for a helping hand? [View plugin documentation](http://docs.woothemes.com/).
+Looking for a helping hand? [View plugin documentation](http://docs.woothemes.com/document/converting-portfolio-items-into-projects/).
 
 == Usage ==
 
@@ -43,11 +43,11 @@ We encourage everyone to contribute their ideas, thoughts and code snippets. Thi
 == Upgrade Notice ==
 
 = 1.0.0 =
-* 2014-06-24
+* 2014-07-24
 * Initial release. Woo!
 
 == Changelog ==
 
 = 1.0.0 =
-* 2014-06-24
+* 2014-07-24
 * Initial release. Woo!
